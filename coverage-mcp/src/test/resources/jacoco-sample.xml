@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report name="Test Coverage">
+  <sessioninfo id="test-session" start="1700000000000" dump="1700000100000" />
+  <package name="com.example">
+    <sourcefile name="Calculator.java">
+      <class name="com.example.Calculator">
+        <method name="add" desc="(II)I" line="10">
+          <counter type="INSTRUCTION" missed="0" covered="5" />
+          <counter type="BRANCH" missed="0" covered="2" />
+          <counter type="LINE" missed="0" covered="3" />
+          <counter type="COMPLEXITY" missed="0" covered="1" />
+          <counter type="METHOD" missed="0" covered="1" />
+          <counter type="CLASS" missed="0" covered="1" />
+        </method>
+        <method name="divide" desc="(II)I" line="15">
+          <counter type="INSTRUCTION" missed="2" covered="8" />
+          <counter type="BRANCH" missed="1" covered="3" />
+          <counter type="LINE" missed="1" covered="4" />
+          <counter type="COMPLEXITY" missed="0" covered="2" />
+          <counter type="METHOD" missed="0" covered="1" />
+          <counter type="CLASS" missed="0" covered="1" />
+        </method>
+      </class>
+    </sourcefile>
+    <sourcefile name="Utils.java">
+      <class name="com.example.Utils">
+        <method name="format" desc="(Ljava/lang/String;)Ljava/lang/String;" line="5">
+          <counter type="INSTRUCTION" missed="0" covered="3" />
+          <counter type="BRANCH" missed="0" covered="0" />
+          <counter type="LINE" missed="0" covered="2" />
+          <counter type="COMPLEXITY" missed="0" covered="1" />
+          <counter type="METHOD" missed="0" covered="1" />
+          <counter type="CLASS" missed="0" covered="1" />
+        </method>
+      </class>
+    </sourcefile>
+  </package>
+  <package name="com.example.service">
+    <sourcefile name="UserService.java">
+      <class name="com.example.service.UserService">
+        <method name="getUser" desc="(I)Lcom/example/User;" line="20">
+          <counter type="INSTRUCTION" missed="5" covered="10" />
+          <counter type="BRANCH" missed="2" covered="4" />
+          <counter type="LINE" missed="2" covered="5" />
+          <counter type="COMPLEXITY" missed="1" covered="3" />
+          <counter type="METHOD" missed="0" covered="1" />
+          <counter type="CLASS" missed="0" covered="1" />
+        </method>
+      </class>
+    </sourcefile>
+  </package>
+</report>

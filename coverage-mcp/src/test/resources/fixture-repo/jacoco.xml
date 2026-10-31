@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<report name="Fixture Coverage">
+  <sessioninfo id="fixture-session" start="1700000000000" dump="1700000100000"/>
+  <package name="com.example">
+    <sourcefile name="Calculator.java">
+      <line nr="5" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="9" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="13" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="17" mi="0" ci="2" mb="1" cb="1"/>
+      <line nr="18" mi="2" ci="0" mb="0" cb="0"/>
+      <line nr="20" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="25" mi="0" ci="2" mb="1" cb="1"/>
+      <line nr="26" mi="2" ci="0" mb="0" cb="0"/>
+      <line nr="28" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="33" mi="0" ci="2" mb="1" cb="0"/>
+      <line nr="34" mi="2" ci="0" mb="0" cb="0"/>
+      <line nr="36" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="37" mi="0" ci="2" mb="1" cb="1"/>
+      <line nr="38" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="40" mi="0" ci="2" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="8" covered="34"/>
+      <counter type="BRANCH" missed="2" covered="4"/>
+      <counter type="LINE" missed="3" covered="12"/>
+    </sourcefile>
+    <sourcefile name="Utils.java">
+      <line nr="5" mi="0" ci="2" mb="1" cb="1"/>
+      <line nr="6" mi="1" ci="0" mb="0" cb="0"/>
+      <line nr="8" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="12" mi="0" ci="3" mb="1" cb="1"/>
+      <line nr="17" mi="0" ci="2" mb="1" cb="1"/>
+      <line nr="18" mi="1" ci="0" mb="0" cb="0"/>
+      <line nr="20" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="25" mi="0" ci="2" mb="1" cb="0"/>
+      <line nr="26" mi="1" ci="0" mb="0" cb="0"/>
+      <line nr="28" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="29" mi="0" ci="3" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="3" covered="26"/>
+      <counter type="BRANCH" missed="2" covered="4"/>
+      <counter type="LINE" missed="3" covered="8"/>
+    </sourcefile>
+    <sourcefile name="User.java">
+      <line nr="9" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="10" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="11" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="14" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="15" mi="2" ci="0" mb="0" cb="0"/>
+      <line nr="16" mi="2" ci="0" mb="0" cb="0"/>
+      <line nr="20" mi="0" ci="4" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="4" covered="14"/>
+      <counter type="LINE" missed="2" covered="5"/>
+    </sourcefile>
+  </package>
+  <package name="com.example.service">
+    <sourcefile name="UserService.java">
+      <line nr="13" mi="0" ci="4" mb="0" cb="0"/>
+      <line nr="14" mi="0" ci="4" mb="0" cb="0"/>
+      <line nr="15" mi="0" ci="4" mb="0" cb="0"/>
+      <line nr="19" mi="1" ci="0" mb="0" cb="0"/>
+      <line nr="23" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="24" mi="0" ci="4" mb="0" cb="0"/>
+      <line nr="25" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="26" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="30" mi="1" ci="0" mb="0" cb="0"/>
+      <line nr="34" mi="0" ci="2" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="2" covered="26"/>
+      <counter type="LINE" missed="2" covered="8"/>
+    </sourcefile>
+  </package>
+  <counter type="INSTRUCTION" missed="17" covered="100"/>
+  <counter type="BRANCH" missed="4" covered="8"/>
+  <counter type="LINE" missed="10" covered="33"/>
+</report>
